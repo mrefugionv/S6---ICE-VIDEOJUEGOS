@@ -44,10 +44,10 @@ Las dos hipótesis que se van a poner a prueba son:
 * Calculos de correlación entre variables - df['col1'].corr(df['col2'])
 * Análisis estadístico - graficas caja-bigotes, estadíticas de series - .describe()
 * Pruebas estadísticas de hipótesis :
-* *     Plateamiento de hipótesis nula y alternativa
-  *     Eliminar valores atípicos de las series a comparar - .pop()
-  *     Calculo de varianzas - .var() para ver si parametro equal:var= False o True 
-  *     Prueba de Levene     -  st.levene()
-  *     Prueba de  Taylor  entre dos poblaciones - st.ttest_ind
-  *     Si es de 1 cola, rechazamos hipótesis nula (=) cuando   results.pvalue < alpha
+* *  Plateamiento de hipótesis nula y alternativa
+  * Eliminar valores atípicos de las series a comparar - .pop()
+  *  Calculo de varianzas - .var() para ver si parametro equal:var= False o True 
+  * Prueba de Levene     -  st.levene()
+  *  Prueba de  Taylor  entre dos poblaciones - st.ttest_ind
+  * Si es de 1 cola, rechazamos hipótesis nula (=) cuando   results.pvalue < alpha
 
